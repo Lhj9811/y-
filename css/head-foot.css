@@ -1,0 +1,187 @@
+.topmune {
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.allgame {
+    float: left;
+    width: 180px;
+    height: 100%;
+    background-color: #cf1132;
+    color: #fff;
+    text-align: center;
+    line-height: 55px;
+    cursor: context-menu;
+}
+
+.allgame::before {
+    content: '';
+    display: inline-block;
+    width: 28px;
+    height: 13px;
+    margin-right: 10px;
+    background: url(../img/imgone/sprite-w_dd519f4.png) no-repeat -85px -304px;
+}
+
+.logo {
+    display: inline-block;
+    width: 133px;
+    height: 44px;
+    margin-top: 5px;
+    background: url(../img/imgone/logo_b5525b7.png) no-repeat;
+}
+
+.gift {
+    float: right;
+    width: 140px;
+    height: 100%;
+    text-align: center;
+    box-shadow: 0px 0px 4px 0px #999;
+    overflow: hidden;
+    transition: all 2s linear .2s;
+}
+
+.gift:hover {
+    background: linear-gradient( #fdecef 10%, #fff 100%);
+}
+
+.gift:hover a {
+    color: #cf1132;
+}
+
+.gift a {
+    line-height: 55px;
+    transition: all .3s linear;
+}
+
+.index {
+    min-width: 1300px;
+    height: 927px;
+    background: url(../img/imgtwo/bottom_bg_b30cb11.png) 50% 0 no-repeat;
+}
+
+.aboutwy {
+    position: relative;
+    width: 830px;
+    text-align: center;
+    color: #fff;
+}
+
+.one {
+    height: 240px;
+    margin: 100px auto 0;
+}
+
+.two {
+    height: 927px;
+    margin: 0 auto;
+}
+
+.indextwo {
+    width: 1300px !important;
+}
+
+.gamelogo {
+    position: absolute;
+    width: 71px;
+    height: 203px;
+    top: 346px;
+    left: 235px;
+    background: url(../img/imgtwo/index_z_f101808.png) no-repeat 0px -288px;
+}
+
+.aboutwy div {
+    padding-top: 10px;
+}
+
+.bottom-about {
+    position: absolute;
+    width: 898px;
+    left: 0;
+    right: 0;
+    bottom: 65px;
+    margin: auto;
+}
+
+.aboutwy .share, .aboutwy .share a {
+    color: #cbc08e;
+}
+
+.aboutwy .share a:hover {
+    color: #cf1132;
+}
+
+.aboutwy .share, .aboutwy ul li {
+    display: inline-block;
+}
+
+.aboutwy .share ul li {
+    margin-right: 10px;
+}
+
+.aboutwy .aboutlink div {
+    display: inline-block;
+    padding: 0;
+}
+
+.aboutwy .aboutlink .aboutlogo {
+    float: left;
+}
+
+.aboutwy .aboutlink .abouttext {
+    float: right;
+}
+
+.aboutlogo li:nth-child(2), .aboutlogo li:nth-child(3) {
+    margin-right: 15px;
+}
+
+.aboutlink a {
+    display: inline-block;
+}
+
+.aboutlink a {
+    color: #fff;
+}
+
+.abouttext {
+    position: relative;
+}
+
+.abouttext li a::after {
+    content: '-';
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.abouttext li:last-child a:after {
+    content: '';
+}
+
+.abouttext .comp, .abouttext .custody {
+    position: absolute;
+    left: 0;
+}
+
+.abouttext .custody {
+    width: initial;
+    padding: 0 5px;
+    left: 380px;
+    background-color: #610000;
+    text-decoration: underline;
+}
+
+.warning {
+    text-align: left;
+    line-height: 25px;
+}
+
+.warning a {
+    display: inline;
+}
+
+.warning a:hover {
+    text-decoration: underline;
+}
